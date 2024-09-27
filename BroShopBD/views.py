@@ -1,7 +1,7 @@
 #Created by - Shamim
 from django.http import HttpResponse
-def home(request):
-    return HttpResponse("Hello World")
+from django.shortcuts import render
 
-def about(request):
-    return HttpResponse("About")
+
+def home(request):
+    return render(request, 'home.html')

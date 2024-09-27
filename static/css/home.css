@@ -1,0 +1,24 @@
+.container-fluid{
+    background-color: purple;
+    padding: 15px;
+    margin-top: -10px;
+}
+.container-fluid a{
+    color: white;
+}
+.container-fluid img{
+    height:40px;
+    width: 50px;
+}
+
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender;
+    padding: 10px;
+}
+.d-flex{
+    width: 600px;
+}
