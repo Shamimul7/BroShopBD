@@ -6,11 +6,17 @@
 .container-fluid a{
     color: white;
 }
-.container-fluid img{
-    height:40px;
-    width: 50px;
+.dropdown-menu a{
+    color: purple;
 }
-
+.container-fluid img{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px
+}
+.nav-item{
+    margin-left: 20px;
+}
 
 .search{
     display: flex;
@@ -21,4 +27,48 @@
 }
 .d-flex{
     width: 600px;
+}
+.btn-light{
+    margin-right: 20px;
+}
+
+.carousel-inner img{
+    height: 250px;
+}
+
+
+
+.sale{
+    height: 300px;
+    margin-top: 8px;
+    padding: 10px;
+    text-align: center;
+    color: purple;
+    background-color: lavender;
+}
+.cat{
+    height: 300px;
+    margin-top: 8px;
+    padding: 10px;
+    text-align: center;
+    color: purple;
+    background-color: lavender;
+}
+
+.suggest{
+    height: 300px;
+    margin-top: 8px;
+    padding: 10px;
+    text-align: center;
+    color: purple;
+    background-color: lavender;
+}
+
+.footer{
+    height: 300px;
+    margin-top: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: purple;
+    color: white;
 }
