@@ -1,3 +1,4 @@
+/*Navbar*/
 .container-fluid{
     background-color: purple;
     padding: 15px;
@@ -5,9 +6,6 @@
 }
 .container-fluid a{
     color: white;
-}
-.dropdown-menu a{
-    color: purple;
 }
 .container-fluid img{
     width: 110px;
@@ -17,7 +15,11 @@
 .nav-item{
     margin-left: 50px;
 }
+.btn-light{
+    margin-right: 20px;
+}
 
+/*Search*/
 .search{
     display: flex;
     justify-content: center;
@@ -28,14 +30,13 @@
 .d-flex{
     width: 600px;
 }
-.btn-light{
-    margin-right: 20px;
-}
 
+/*Slider*/
 .carousel-inner img{
     height: 250px;
 }
 
+/*Flash Sale*/
 .sale{
     height: 400px;
     margin-top: 8px;
@@ -53,6 +54,8 @@
     margin-bottom: 8px;
 }
 
+
+/*Category*/
 .cat{
     height: 300px;
     margin-top: 8px;
@@ -61,16 +64,24 @@
     color: purple;
     background-color: lavender;
 }
+.cat h3{
+    margin-left: 15px;
+}
 
+/*Suggestion*/
 .suggest{
-    height: 300px;
+    height: 400px;
     margin-top: 8px;
     padding: 10px;
     text-align: center;
     color: purple;
     background-color: lavender;
 }
+.suggest h3{
+    margin-left: 15px;
+}
 
+/*Footer Section*/
 .footer{
     height: 300px;
     margin-top: 8px;
@@ -80,11 +91,12 @@
     color: white;
 }
 
+
+/*Card View*/
 .crud{
     display: flex;
 
 }
-
 .card {
     background-color: white;
     border-radius: 10px;
@@ -128,3 +140,6 @@
 .add-to-cart:hover {
     background-color: #218838;
 }
+
+
+
