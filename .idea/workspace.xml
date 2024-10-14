@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dddfe6c5-1a10-41a8-8603-60deac3432e1" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +139,13 @@
       <workItem from="1728045679809" duration="10315000" />
       <workItem from="1728100011468" duration="7247000" />
       <workItem from="1728140180910" duration="996000" />
-      <workItem from="1728144558842" duration="1838000" />
+      <workItem from="1728144558842" duration="2973000" />
+      <workItem from="1728191902821" duration="3543000" />
+      <workItem from="1728300006731" duration="595000" />
+      <workItem from="1728311596291" duration="2483000" />
+      <workItem from="1728371491028" duration="595000" />
+      <workItem from="1728409716258" duration="782000" />
+      <workItem from="1728922861533" duration="3061000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -246,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728140192412</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit">
+      <option name="closed" value="true" />
+      <created>1728146426007</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728146426007</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
