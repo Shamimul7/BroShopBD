@@ -10,8 +10,8 @@
     font-family: Bahnschrift;
 }
 .container-fluid img{
-    width: 110px;
-    height: 50px;
+    width: 170px;
+    height: 60px;
     margin-left: 15px
 }
 .nav-item{
@@ -19,6 +19,8 @@
 }
 .btn-light{
     margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 /*Search*/
@@ -26,16 +28,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lavender;
     padding: 10px;
+    margin-right: 20px;
 }
 .d-flex{
     width: 600px;
+    height: 50px;
+}
+.btn-outline-success{
+    margin-left: -77px;
+    color: deeppink;
+    width: 70px;
 }
 
+/*list*/
+.list{
+    display: flex;
+    background-color: purple;
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+.list li{
+    padding-top: 7px;
+    list-style-type: none;
+}
+
+.lists{
+    display: flex;
+    justify-content: space-around;
+
+}
 /*Slider*/
 .carousel-inner img{
     height: 250px;
+    margin-top: -10px;
 }
 
 /*Flash Sale*/
@@ -69,6 +97,7 @@
 .cat h3{
     margin-left: 15px;
 }
+
 
 /*Suggestion*/
 .suggest{
@@ -135,6 +164,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 
 
 /*Footer Section*/
