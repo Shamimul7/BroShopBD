@@ -14,14 +14,6 @@
     height: 60px;
     margin-left: 15px
 }
-.nav-item{
-    margin-left: 50px;
-}
-.btn-light{
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
 
 /*Search*/
 .search{
@@ -53,13 +45,23 @@
 .list li{
     padding-top: 7px;
     list-style-type: none;
+    text-align: center;
 }
 
 .lists{
     display: flex;
     justify-content: space-around;
-
 }
+.nav-item{
+    margin-left: 10px;
+}
+.btn-light{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
 /*Slider*/
 .carousel-inner img{
     height: 250px;
