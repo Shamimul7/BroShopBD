@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BroShopBD</title>
+    <link rel="icon" type="image/x-icon" href="/static/media/shamim.png">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+<! Navbar !>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    {% load static %}
+      <a class="navbar-brand" href="/"><img class="ss" src="{% static 'media/logo.png' %}" alt="Example Image"></a>
+  <div class="search">
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="search item" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"><b><i class="fa-solid fa-magnifying-glass"></i></b></button>
+    </form>
+  </div>
+  <div class="bttn">
+        <button type="button" class="btn btn-light"><i class="fa-solid fa-login"></i> <i class="fa-solid fa-user"></i> <b>Login</b></button>
+  </div>
+  </div>
+</nav>
+
+<! List !>
+<div class="grid-container">
+    <div class="column"><a class="nav-link" href="/"> <i class="fa-solid fa-house-chimney"></i><b> Home</b> </a></div>
+    <div class="column"><a class="nav-link" href="#"><i class="fa-solid fa-layer-group"></i> <b> Global Item</b></a></div>
+    <div class="column"><a class="nav-link" href="#"><i class="fa-solid fa-layer-group"></i> <b> Men Zone</b></a></div>
+    <div class="column"><a class="nav-link" href="#"><i class="fa-solid fa-layer-group"></i> <b> Women Zone</b></a></div>
+    <div class="column"><a class="nav-link" href="#"><i class="fa-solid fa-layer-group"></i> <b> Kids Zone</b></a></div>
+    <div class="column"><a class="nav-link" href="#"><i class="fa-solid fa-layer-group"></i> <b> Pet Zone</b></a></div>
+</div>
+
+<div class="about">
+    <h3> <u> Our Commitment to Authenticity </u></h3>
+    <p> At BroShopBD, we understand that trust is essential in your shopping experience. That's why we are dedicated to providing you with 100% authentic products.</p>
+    <h5> Why Authenticity Matters?</h5> 
+    <p> We believe that every product you purchase should meet the highest standards of quality and authenticity. When you shop with us, you can rest assured that:
+        <ul>
+            <li> <b>Genuine Products:</b> All products are sourced directly from reputable manufacturers and authorized distributors. We do not compromise on quality.</li>
+            <li> <b>Quality Assurance:</b> Each product undergoes a rigorous quality check to ensure it meets our high standards before it reaches you. </li>
+            <li> <b>Transparent Sourcing:</b> We are committed to transparency. You can find detailed information about our sourcing practices on our website. </li>
+            <li> <b>Customer Satisfaction:</b> Your satisfaction is our top priority. If you ever have concerns about the authenticity of a product, we are here to assist you. </li>
+        </ul>
+    <h5>Shop with Confidence</h5>
+    <p> We invite you to explore our diverse range of products with the assurance that you are purchasing from a trusted source. <br> Thank you for choosing BroShopBD—your destination for authentic, high-quality products.</p>
+    
+<h5> Happy Shopping! <i class="fa-solid fa-face-smile"></i> </h5>
+</div>
+
+
+<! footer !>
+<div class="footer">
+    <div class="foot1">
+        {% load static %}
+        <a class="navbar-brand" href="#"><img class="ss" src="{% static 'media/logo.png' %}" alt="Example Image"></a>
+        <a href="/about/"><h6><i class="fa-solid fa-tag"></i> Our Story</h6></a>
+        <a href="#"><h6><i class="fa-solid fa-tag"></i> Authenticity</h6></a>
+        <h6><i class="fa-solid fa-tag"></i> Privacy Policy</h6>
+        <h6><i class="fa-solid fa-tag"></i> Terms & Conditions</h6>
+    </div>
+    
+    <div class="services">
+        <h3><u>Services</u></h3>
+        <h6><i class="fa-solid fa-cart-shopping"></i> Men Zone</h6>
+        <h6><i class="fa-solid fa-cart-shopping"></i> Women Zone</h6>
+        <h6><i class="fa-solid fa-cart-shopping"></i> Kid Zone</h6>
+        <h6><i class="fa-solid fa-cart-shopping"></i> Pet Zone</h6>
+    </div>
+    
+    <div class="services">
+        <h3><u>Quick Help</u></h3>
+        <h6><i class="fa-solid fa-layer-group"></i> FAQ</h6>
+        <h6><i class="fa-solid fa-layer-group"></i> Contact Us</h6>
+        <h6><i class="fa-solid fa-layer-group"></i> Track Order</h6>
+        <h6><i class="fa-solid fa-layer-group"></i> Refund Policy</h6>
+    </div>
+</div>
+
+<div class="rights">
+    <p> All Rights Reserved @<b>Shamimul Islam</b></p>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

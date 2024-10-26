@@ -1,0 +1,35 @@
+/*list*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 7 equal columns */
+    gap: 4px; /* Adjust gap between columns as needed */
+}
+.column {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.column:hover {
+    background-color: lightgoldenrodyellow;
+    color: purple;
+    padding: 20px;
+    text-align: center;
+}
+
+.about{
+    padding: 20px;
+}
+.about h3{
+    text-align: center;
+    color: purple;
+}
+.about p{
+    color: purple;
+}
+.about h5{
+    color: purple;
+}
+.about ul{
+    color: purple;
+}
