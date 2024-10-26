@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-html, body{
+body{
     height: 100%;
+    background-color: white;
 }
 
 /*Navbar*/
@@ -45,14 +46,25 @@ html, body{
 /*Slider*/
 .carousel-inner img{
     height: 250px;
+    margin-top: -7px;
+
 }
 
 
 /*list*/
+.parent {
+    overflow: visible; /* Ensure this is set */
+}
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 7 equal columns */
-    gap: 4px; /* Adjust gap between columns as needed */
+    background-color: white;
+    padding-bottom: 7px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .column {
